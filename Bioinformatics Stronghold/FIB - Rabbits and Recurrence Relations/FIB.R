@@ -4,7 +4,7 @@ library(readtext)
 #Setting working directory
 setwd("D:/_Hector/R") 
 
-#Reading sequence txt file
+#Reading variables txt file
 file = readtext(paste0(getwd(), "/rosalind_fib.txt"))
 variables = strsplit(file$text[[1]]," ")
 n = as.integer(variables[[1]][1])
@@ -20,5 +20,5 @@ rabbit_number = rabbits(n, k)
 #Printing accordingly
 print(rabbit_number)
 
-#Copy to clipboard for easy submition
+#Copying to clipboard for easier submition
 write_clip(as.character(rabbit_number))
