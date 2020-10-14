@@ -25,7 +25,7 @@ res = lexv(sort_chars, number)
 #Ordering lexicographically
 ordered = sorted(res, key=lambda word: [sort_chars.index(c) for c in word])
 
-#Printing hamming distance
+#Printing results
 print('\n'.join(ordered))
 
 #Copying to clipboard for easier submition
