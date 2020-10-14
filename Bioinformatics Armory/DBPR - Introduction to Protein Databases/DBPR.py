@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 #Reading variables txt file
 file = open('rosalind_dbpr.txt', 'r')
 pdb_id = file.read()
-pdb_id = "Q5SLP9"
 
 #Defining function
 def dbpr(pdb_id):
