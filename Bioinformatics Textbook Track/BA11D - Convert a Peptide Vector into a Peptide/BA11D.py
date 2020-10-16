@@ -29,7 +29,7 @@ def ba11d(length, numbers):
 				aa_found = True
 	return ''.join(string)
 
-#Calculating swaps
+#Building string
 res = ba11d(mass_array, aa_masses)
 
 #Printing result
